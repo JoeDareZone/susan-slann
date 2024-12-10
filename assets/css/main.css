@@ -1789,16 +1789,17 @@ input, select, textarea {
 
 /* Contact */
 
-	ul.contact {
-		list-style: none;
-		padding-left: 0;
-	}
+ul.contact {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; /* Remove unnecessary margins */
+}
 
-		ul.contact li {
-			position: relative;
-			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 7em;
-		}
+ul.contact li {
+    position: relative;
+    border-top: solid 1px #ddd;
+    padding: 1em 0; /* Adjust padding for better spacing */
+}
 
 			ul.contact li h3 {
 				position: absolute;
@@ -1900,13 +1901,14 @@ input, select, textarea {
 
 /* Social */
 
-	ul.social {
-		list-style: none;
-		padding-left: 0;
-		overflow: hidden;
-		cursor: default;
-		margin: 0 0 3.25em 0;
-	}
+ul.social {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    cursor: default;
+    margin: 0 0 1em 0; /* Adjusted bottom margin to 1em for consistency */
+}
+
 
 		ul.social li {
 			display: inline-block;
@@ -2296,68 +2298,60 @@ input, select, textarea {
 			background: #f7f7f7 url("images/bg02.png");
 		}
 
-/* Footer */
-
+	/* Footer */
 	#footer {
+		text-align: center; /* Center all text elements inside the footer */
 		position: relative;
 		color: #858484;
 		padding: 4em 0;
 	}
 
-		#footer:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			background: url("images/bg01.png");
-			background-size: 100% 100%;
-			z-index: 0;
-			opacity: 0.5;
-		}
-
-		#footer a {
-			color: #c5c4c4;
-		}
-
-		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #fff;
-		}
-
-			#footer h2 a, #footer h3 a, #footer h4 a, #footer h5 a, #footer h6 a, #footer strong a, #footer b a {
-				color: inherit;
-			}
-
-		#footer ul.contact li,
-		#footer ul.dates li,
-		#footer ul.divided li {
-			border-top-color: #353434;
-			border-top-color: rgba(255, 255, 255, 0.05);
-		}
-
-		#footer header {
-			margin: 0 0 3em 0;
-		}
-
-			#footer header h2 {
-				font-size: 1.75em;
-			}
-
-/* Copyright */
-
-	#copyright {
-		text-align: center;
-		margin: 3em 0 2em 0;
+	#footer ul.social {
+		justify-content: center; /* Center social icons */
+		display: flex;
+		padding: 0;
+		margin: 1em 0;
+		list-style: none;
 	}
 
-		#copyright ul.links {
-			display: inline-block;
-			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
-			border-radius: 5px;
-			margin: 0;
-			padding: 0.85em 2.25em 0.85em 2.25em;
-		}
+	#footer ul.contact {
+		padding: 0; /* Remove default padding */
+		margin: 0; /* Remove default margin */
+		list-style: none; /* Remove bullet points */
+		text-align: center; /* Center-align text */
+	}
+	
+	#footer ul.contact li {
+		padding: 0; /* Remove any padding inside list items */
+		margin: 0.5em 0; /* Add consistent spacing between items */
+		text-align: center; /* Ensure items are centered */
+	}
+	
+
+	#copyright {
+		text-align: center; /* Center copyright section */
+		margin-top: 2em;
+	}
+
+	#copyright ul.links {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block; /* Center the list */
+	}
+
+	#copyright ul {
+		padding: 0; /* Remove default padding */
+		margin: 0; /* Remove default margin */
+		list-style: none; /* Remove bullet points */
+		text-align: center; /* Center-align the entire list */
+	}
+	
+	#copyright ul li {
+		padding: 0; /* Remove any padding inside list items */
+		margin: 0.5em 0; /* Optional: Add consistent spacing between items */
+		text-align: center; /* Ensure items are centered */
+	}
 
 /* XLarge */
 
@@ -2919,3 +2913,11 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* CUSTOM CSS */
+
+	.inactiveLink {
+		pointer-events: none;
+		cursor: default;
+	 }
