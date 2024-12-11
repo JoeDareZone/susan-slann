@@ -1939,11 +1939,11 @@ ul.social {
 					line-height: 1.5em;
 				}
 
-				ul.social li a.fa-facebook {
+				ul.social li a.fa-facebook-f {
 					background: #3c5a98;
 				}
 
-					ul.social li a.fa-facebook:hover {
+					ul.social li a.fa-facebook-f:hover {
 						background: #4c6aa8;
 					}
 
@@ -1955,19 +1955,19 @@ ul.social {
 						background: #3dbaf4;
 					}
 
-				ul.social li a.fa-dribbble {
-					background: #c4376b;
+				ul.social li a.fa-etsy {
+					background: #F56400;
 				}
 
-					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
+					ul.social li a.fa-etsy:hover {
+						background: #fe7a23;
 					}
 
-				ul.social li a.fa-linkedin {
+				ul.social li a.fa-linkedin-in {
 					background: #006599;
 				}
 
-					ul.social li a.fa-linkedin:hover {
+					ul.social li a.fa-linkedin-in:hover {
 						background: #1075a9;
 					}
 
