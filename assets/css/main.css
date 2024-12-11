@@ -1947,12 +1947,12 @@ ul.social {
 						background: #4c6aa8;
 					}
 
-				ul.social li a.fa-twitter {
-					background: #2daae4;
+				ul.social li a.fa-instagram {
+					background: #C13584;
 				}
 
-					ul.social li a.fa-twitter:hover {
-						background: #3dbaf4;
+					ul.social li a.fa-instagram:hover {
+						background: #c75c99;
 					}
 
 				ul.social li a.fa-etsy {
@@ -1971,21 +1971,6 @@ ul.social {
 						background: #1075a9;
 					}
 
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
-				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
-					}
-
-				ul.social li a.fa-google-plus {
-					background: #da2713;
-				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
-					}
 
 /* Icons */
 
@@ -2921,3 +2906,12 @@ ul.social {
 		pointer-events: none;
 		cursor: default;
 	 }
+
+	 .image.blog {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		max-height: 400px;
+		margin-bottom: 2rem;
+	}
+	
