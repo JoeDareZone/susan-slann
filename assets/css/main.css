@@ -2180,6 +2180,11 @@ ul.social {
 		margin: 4em 0 0 0;
 	}
 
+	#falsebanner {
+		padding: 1em 0;
+		margin: 1em 0 0 0;
+	}
+
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.98);
 			display: inline-block;
@@ -2913,5 +2918,25 @@ ul.social {
 		max-width: 100%;
 		max-height: 400px;
 		margin-bottom: 2rem;
+	}
+	
+	.box .content {
+		display: flex;
+		align-items: center; /* Vertically align text and image, optional */
+	}
+	
+	.box .text {
+		width: 50%; /* Allocate 50% of the container width */
+		padding-right: 20px; /* Add some space between text and image */
+	}
+	
+	.box .image-wrapper {
+		width: 50%; /* Allocate 50% of the container width */
+	}
+	
+	.box .image-wrapper img {
+		width: 100%; /* Ensure the image fills its 50% container */
+		height: auto; /* Maintain the image's aspect ratio */
+		object-fit: cover; /* Keeps the image looking good */
 	}
 	
