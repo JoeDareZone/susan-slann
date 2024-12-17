@@ -133,9 +133,13 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h4, h5, h6 {
 		color: #252122;
 		font-weight: 700;
+	}
+	h3 {
+		color: #252122;
+		font-weight: 500;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2072,7 +2076,7 @@ ul.social {
 		#header h1 {
 			color: #252122;
 			font-weight: 900;
-			font-size: 2.5em;
+			font-size: 3rem;
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
@@ -2847,8 +2851,8 @@ ul.social {
 
 				#header h1 {
 					color: #252122;
-					font-weight: 900;
-					font-size: 1.75em;
+					/* font-weight: 900; */
+					/* font-size: 1.75em; */
 					letter-spacing: -0.035em;
 				}
 
@@ -2940,3 +2944,22 @@ ul.social {
 		object-fit: cover; /* Keeps the image looking good */
 	}
 	
+
+	
+
+	  .cormorant-garamond-semibold {
+		font-family: "Cormorant Garamond", serif;
+		/* font-weight: 600; */
+		/* font-style: normal; */
+		/* font-size: 100px;  */
+		margin-bottom: 12px;
+	  }
+
+	  body.homepage.is-preload {
+		background-color: #1a4164; /* Light blue (change this to any color you want) */
+		color: #333; /* Optional: Adjust text color for better contrast */
+		margin: 0;
+		padding: 0;
+	  }
+
+	  
