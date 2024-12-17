@@ -2076,7 +2076,7 @@ ul.social {
 		#header h1 {
 			color: #252122;
 			font-weight: 900;
-			font-size: 3rem;
+			font-size: 4rem;
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
@@ -2174,7 +2174,8 @@ ul.social {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		/* background: #CCE8F4 url("../../images/pic01.jpg"); */
+		background-color: #c7d7da;
 		background-position: center -550px;
 		background-size: auto auto;
 		background-repeat: no-repeat;
