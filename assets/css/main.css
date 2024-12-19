@@ -3019,6 +3019,6 @@ ul.social {
 		}
 	}
 	
-	spacer {
-		margin-bottom: 100px;
+	.spacer {
+		margin-bottom: 30px;
 	}
